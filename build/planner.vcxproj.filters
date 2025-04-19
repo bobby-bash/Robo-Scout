@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\src\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\src\motion_planner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\src\node.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\src\planner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\src\task_planner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\include\constants.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\include\motion_planner.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\include\node.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\include\planner.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\include\task_planner.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C97009B1-AA02-32B8-A953-35397A0E9EFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C67DA8B-8A23-3508-9D74-8D9DD5B79A5A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

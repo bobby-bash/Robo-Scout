@@ -1,0 +1,10 @@
+^D:\BOBBY\ROBO-SCOUT\ROBO-SCOUT\ROBOT-CONTROLLER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Bobby/Robo-Scout/Robo-Scout/Robot-Controller -BD:/Bobby/Robo-Scout/Robo-Scout/Robot-Controller/build --check-stamp-file D:/Bobby/Robo-Scout/Robo-Scout/Robot-Controller/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

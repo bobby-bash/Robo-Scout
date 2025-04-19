@@ -1,0 +1,10 @@
+^D:\BOBBY\ROBO-SCOUT\ROBO-SCOUT\ROBOT-CONTROLLER\BUILD\CMAKEFILES\6B76593CB624E71F11D376C6F893A4FF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Bobby/Robo-Scout/Robo-Scout/Robot-Controller -BD:/Bobby/Robo-Scout/Robo-Scout/Robot-Controller/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Bobby/Robo-Scout/Robo-Scout/Robot-Controller/build/planner.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Bobby\Robo-Scout\Robo-Scout\Robot-Controller\build\CMakeFiles\6b76593cb624e71f11d376c6f893a4ff\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E10968E7-8CF2-3CD2-8755-EB3AEA7C46EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
